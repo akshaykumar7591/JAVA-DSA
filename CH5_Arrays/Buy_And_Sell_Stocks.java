@@ -2,6 +2,7 @@ package CH5_Arrays;
 
 import java.util.Scanner;
 
+// this is stock buy and sell
 public class Buy_And_Sell_Stocks {
     public static int BuyAndSell(int arr[]){
         int buyprice=Integer.MAX_VALUE;
