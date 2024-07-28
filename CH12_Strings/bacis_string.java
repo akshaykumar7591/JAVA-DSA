@@ -39,6 +39,13 @@ public class bacis_string {
 
     // equals();-
         System.out.println(str.equals(str1));// first it will check address and then it check char by char
+        System.out.println(str1.toCharArray());
+        String[] arrOfStr = str.split("a", 2);
+
+        for (String a : arrOfStr)
+            System.out.println(a);
+        //System.out.println(str1.split("@",3));
+
 
 
     }
